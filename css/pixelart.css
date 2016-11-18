@@ -1,0 +1,112 @@
+.acciones_botones{
+	font-family: ionic fonts;
+	float: right;
+}
+
+#color-pick{
+	float: left;
+}
+
+#wrapper{
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.funcionalidades{
+	width: 400px;
+	height: 100px;
+	margin-top: 20px;
+}
+
+#cuadrado{
+	width: 400px;
+	height: 400px;
+}
+
+.tamanio {
+	clear: both;
+	margin-bottom: 10px;
+}
+
+.tamanio p {
+	display: inline-block;
+	margin-left:5px;
+	margin-right: 5px;
+	font-family: 'Coming Soon', cursive;
+}
+
+div.tamanio{
+	border: 1px solid rgba(44, 62, 80, 1);
+	border-radius: 40px;
+	width: 214px;
+}
+
+.tamanio input{
+	width: 80px;
+	font-family: 'Coming Soon', cursive;
+	border: none;
+	background: #dbedff;
+	border-bottom: 0.5px solid rgba(44, 62, 80, 1);
+}
+
+#color-pick div{
+	border-radius: 50%;
+	width: 23px;
+	height: 23px;
+	display: inline-block;
+	border: 1px dotted rgba(255, 255, 255, 0.2);
+	cursor:pointer;
+}
+
+#cuadrado .cell{
+	float: left;
+	background-color: #ecf0f1;
+	outline:1px solid white;
+	cursor: pointer;
+}
+
+#color-pick > div.select{
+	border: 2px solid black;
+}
+
+#cuadrado .cell.no-border{
+	outline: none;
+}
+
+#color-pick{
+	width: 180px;
+	float: left;
+}
+
+.btn {
+    font-size: 30px;
+    color: #2c3e50;
+    border: 1px solid #2c3e50;
+    background: #dbedff;
+    width: 48px;
+    height: 48px;
+    border-radius: 48px;
+    float: left;
+    margin: 0 12px;
+    cursor: pointer;
+}
+
+.s{
+	border:0;
+ 	font-size: 30px;
+    color: #2c3e50;
+    background: #dbedff;
+    width: 30px;
+    height: 36px;
+    margin: 0 6px;
+    cursor: pointer;
+
+}
+
+button#sizeit span{
+	vertical-align: sub;
+}
+
+body{
+	background-color: #dbedff;
+}
